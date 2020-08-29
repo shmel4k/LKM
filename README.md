@@ -26,3 +26,6 @@ To delete and unload:
 $sudo rm /dev/lkm_task
 
 $sudo rmmod lkm_task
+
+
+Use 'dd' to test (like: $sudo dd if=test.txt of=/dev/lkm_task bs=40 count=5)
