@@ -14,7 +14,7 @@ To load:
 
 $sudo insmod lkm_task
 
-Interaction from user program can be realized through a symbol device file:
+Interaction with a user program can be realized through a symbol device file:
 
 $sudo mknod /dev/lkm_task c MAJOR 0
 
