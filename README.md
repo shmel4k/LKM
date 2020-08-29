@@ -12,11 +12,11 @@ $make
 
 To load:
 
-$sudo insmod lkm.task
+$sudo insmod lkm_task
 
 Interaction from user program can be realized through a symbol device file:
 
-sudo mknod /dev/lkm_task c MAJOR 0
+$sudo mknod /dev/lkm_task c MAJOR 0
 
 MAJOR - device number got during the module init (printed into kernel log).
 
